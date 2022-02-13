@@ -17,6 +17,11 @@
 		5C0A3DC427B649B700FE0F43 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0A3DC327B649B700FE0F43 /* ComplicationController.swift */; };
 		5C0A3DC627B649B800FE0F43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C0A3DC527B649B800FE0F43 /* Assets.xcassets */; };
 		5C0A3DC927B649B800FE0F43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C0A3DC827B649B800FE0F43 /* Preview Assets.xcassets */; };
+		5C0A3DDA27B64A4900FE0F43 /* SignalsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0A3DD927B64A4900FE0F43 /* SignalsListView.swift */; };
+		5C0A3DDC27B64A5A00FE0F43 /* SignalRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0A3DDB27B64A5900FE0F43 /* SignalRow.swift */; };
+		5C0A3DDE27B64B8B00FE0F43 /* SignalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0A3DDD27B64B8B00FE0F43 /* SignalModel.swift */; };
+		5C0A3DE027B64F2300FE0F43 /* EmitSignalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0A3DDF27B64F2300FE0F43 /* EmitSignalView.swift */; };
+		5C0A3DE427B654DD00FE0F43 /* MorseSignalEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0A3DE327B654DD00FE0F43 /* MorseSignalEmitter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +80,11 @@
 		5C0A3DC827B649B800FE0F43 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5C0A3DCA27B649B800FE0F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C0A3DCB27B649B800FE0F43 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		5C0A3DD927B64A4900FE0F43 /* SignalsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalsListView.swift; sourceTree = "<group>"; };
+		5C0A3DDB27B64A5900FE0F43 /* SignalRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalRow.swift; sourceTree = "<group>"; };
+		5C0A3DDD27B64B8B00FE0F43 /* SignalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalModel.swift; sourceTree = "<group>"; };
+		5C0A3DDF27B64F2300FE0F43 /* EmitSignalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmitSignalView.swift; sourceTree = "<group>"; };
+		5C0A3DE327B654DD00FE0F43 /* MorseSignalEmitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseSignalEmitter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +137,11 @@
 				5C0A3DCA27B649B800FE0F43 /* Info.plist */,
 				5C0A3DCB27B649B800FE0F43 /* PushNotificationPayload.apns */,
 				5C0A3DC727B649B800FE0F43 /* Preview Content */,
+				5C0A3DD927B64A4900FE0F43 /* SignalsListView.swift */,
+				5C0A3DDB27B64A5900FE0F43 /* SignalRow.swift */,
+				5C0A3DDD27B64B8B00FE0F43 /* SignalModel.swift */,
+				5C0A3DDF27B64F2300FE0F43 /* EmitSignalView.swift */,
+				5C0A3DE327B654DD00FE0F43 /* MorseSignalEmitter.swift */,
 			);
 			path = "Morse Flashlight WatchKit Extension";
 			sourceTree = "<group>";
@@ -266,8 +281,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C0A3DE027B64F2300FE0F43 /* EmitSignalView.swift in Sources */,
 				5C0A3DC027B649B700FE0F43 /* NotificationController.swift in Sources */,
 				5C0A3DBE27B649B700FE0F43 /* ContentView.swift in Sources */,
+				5C0A3DDC27B64A5A00FE0F43 /* SignalRow.swift in Sources */,
+				5C0A3DDE27B64B8B00FE0F43 /* SignalModel.swift in Sources */,
+				5C0A3DE427B654DD00FE0F43 /* MorseSignalEmitter.swift in Sources */,
+				5C0A3DDA27B64A4900FE0F43 /* SignalsListView.swift in Sources */,
 				5C0A3DC427B649B700FE0F43 /* ComplicationController.swift in Sources */,
 				5C0A3DBC27B649B700FE0F43 /* Morse_FlashlightApp.swift in Sources */,
 				5C0A3DC227B649B700FE0F43 /* NotificationView.swift in Sources */,
